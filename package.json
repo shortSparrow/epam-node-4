@@ -4,8 +4,9 @@
   "description": "",
   "main": "",
   "scripts": {
-    "test": "jest",
-    "test:coverage": "jest --coverage"
+    "test": "jest src",
+    "test:coverage": "jest --coverage",
+    "test:e2e": "jest e2e_test"
   },
   "author": "",
   "license": "ISC",

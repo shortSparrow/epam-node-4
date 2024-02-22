@@ -1,5 +1,5 @@
 import axios from "axios";
-import { PUBLIC_HOLIDAYS_API_URL } from "../config";
+import { PUBLIC_HOLIDAYS_API_URL } from "../src/config";
 
 describe("nagerDate API", () => {
   it("AvailableCountries", async () => {
